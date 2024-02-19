@@ -14,4 +14,4 @@ console.log(colore);
 const datiCompleti = nome+cognome+colore;
 console.log(datiCompleti);
 
-document.getElementById('codice').innerHTML = nome;
+document.getElementById('codice').innerHTML = datiCompleti+"24";
