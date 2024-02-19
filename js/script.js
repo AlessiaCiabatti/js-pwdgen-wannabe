@@ -11,7 +11,15 @@ const colore = prompt('Qual è il tuo colore preferito?');
 console.log(colore);
 
 //STAMPA RISULTATO 4
-const datiCompleti = nome+cognome+colore;
+const numero = '24'
+const datiCompleti = nome+cognome+colore+numero;
 console.log(datiCompleti);
 
-document.getElementById('codice').innerHTML = datiCompleti+"24";
+// document.getElementById('codice').innerHTML = datiCompleti;
+
+document.getElementById('codice').innerHTML = `
+
+<p>
+  <strong class="verde">${datiCompleti}</strong>
+</p>
+`
